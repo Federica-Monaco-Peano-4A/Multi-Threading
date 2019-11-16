@@ -87,8 +87,8 @@ BUILD SUCCESSFUL (total time: 10 seconds)
 Documentazione Esercizio Say
 
 In questo esercizio,al contrario di quello precedente si usa una sola
-classe per avviare 2 Thread (p.1 e p.2) che stampano rispettivamente le 
-parole "Hi" ed "Hello" non seguendo un ordine per preciso.
+classe per avviare 2 Thread, e si instanziano 2 oggetti (p.1 e p.2) che stampano , con il metodo Run() x 10 volte, rispettivamente le 
+parole "Hi" ed "Hello" non seguendo un ordine per preciso, e li avviano con il metodo Start().
 
 il risultato è il seguente: 
 ```
