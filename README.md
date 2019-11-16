@@ -1,4 +1,5 @@
 # Multi-Threading
+## Esercizio1
 Esercizio Multi-Threading
 Nel progetto sul Multi-Threading sono presenti Main e 2 classi :Hi,Hello.
 Ogni classe ha 2 metodi: metodo Run e metodo Try-Catch,che fanno partire i 2 Thread (hi ed hello),ed all'interno 
@@ -82,3 +83,82 @@ Hi
 Hello
 BUILD SUCCESSFUL (total time: 10 seconds)
 ```
+## Esercizio2
+Documentazione Esercizio Say
+
+In questo esercizio,al contrario di quello precedente si usa una sola
+classe per avviare 2 Thread (p.1 e p.2) che stampano rispettivamente le 
+parole "Hi" ed "Hello" non seguendo un ordine per preciso.
+
+il risultato è il seguente: 
+
+Run1 :
+Hi
+Hi
+Hi
+Hi
+Hi
+Hi
+Hi
+Hi
+Hi
+Hi
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+BUILD SUCCESSFUL (total time: 0 seconds)
+
+
+Run2: 
+Hi
+Hi
+Hi
+Hi
+Hi
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hi
+Hi
+Hi
+Hi
+Hi
+BUILD SUCCESSFUL (total time: 0 seconds)
+
+
+Run3:
+Hi
+Hi
+Hi
+Hi
+Hi
+Hi
+Hi
+Hi
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hi
+Hi
+BUILD SUCCESSFUL (total time: 0 seconds)
