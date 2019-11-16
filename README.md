@@ -91,7 +91,7 @@ classe per avviare 2 Thread (p.1 e p.2) che stampano rispettivamente le
 parole "Hi" ed "Hello" non seguendo un ordine per preciso.
 
 il risultato è il seguente: 
-
+```
 Run1 :
 Hi
 Hi
